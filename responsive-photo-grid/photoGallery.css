@@ -1,0 +1,37 @@
+h1{
+	font-family: Lato;
+	font-size: 25px;
+	font-weight:bolder;
+	color: rgb(100,129,255);
+	font-style: italic;
+	border-bottom: 1px solid gray;
+	padding-bottom: 15px;
+	width: 300px;
+	margin-left: 50px; 
+}
+
+.wrapper{
+	
+	margin-top: 2.5%;
+	width: auto;
+	height: auto;
+	
+}
+
+.row{
+
+	width: inherit;
+	margin:2.5% 2.5% 2.5% 2.5%; 
+	 
+}
+.row img{
+
+	width:30%;
+	height:30%;
+	display: inline-block;
+	margin-left: 2.5%;	
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+}
+
+
+
