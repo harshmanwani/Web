@@ -1,0 +1,42 @@
+
+
+h2{
+
+	text-align: center;
+	font-size: 40px;
+	font-family: Lato;
+	font-weight: bolder;
+}
+
+
+table{
+	
+	width:300px; 
+	margin: 0 auto;
+}
+.row{
+
+	
+	height: 100px;
+	
+}
+
+tr:nth-of-type(2)>td{
+
+	border-top:2px solid black;
+	border-bottom:2px solid black;
+}
+
+td:nth-of-type(2){
+
+		border-left: 2px solid black;
+		border-right: 2px solid black;
+}
+
+td{
+	width: 33.3%;
+}
+
+td:hover{
+	background-color: mediumaquamarine;
+}
