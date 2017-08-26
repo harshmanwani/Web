@@ -53,3 +53,14 @@ p{
 	margin-top: 10px;
 }
 
+.thumbnail img:hover{
+	transform: scale(1.10);
+	opacity: 1;
+}
+.thumbnail img{
+	
+
+	transform: scale(1.0);	
+	transition: transform 0.5s, opacity 0.5s;
+}
+
