@@ -1,0 +1,52 @@
+.winner{
+	color: red;
+}
+
+body{
+	background-color: #000D28;
+}
+div{
+	
+	width: 50%;
+	margin: 10% auto;
+	background-color: #1B659C;	
+	padding: 25px;
+}
+
+h1:nth-of-type(2),
+h2{
+	font-size: 32px;
+	font-family: monospace;
+	
+}
+
+#heading{
+	font-size: 48px;
+	color: #1E1917;
+	margin: 0 auto 32px auto;
+	text-align: center;
+	width: 50%;
+	padding-bottom: 6px;
+	
+}
+input{
+	height: 32px;
+	margin-right: 16px;
+}
+
+button{
+	margin-left: 16px;
+	background-color: lightblue;
+	height: 35px;
+	border-radius: 5px;
+	font-family: 'Lato'
+}
+
+.wins{
+	margin-top: 24px;
+	font-family: 'Helvetica';
+	font-size: 56px;
+	color: orangered;
+	text-align: center;
+}
+
