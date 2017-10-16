@@ -1,0 +1,114 @@
+body{
+background:  -webkit-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)) , url('./images/background.png');
+background:  -o-linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)) , url('./images/background.png');
+background:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.9)) , url('./images/background.png') ;
+height: 100vh;
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed; 
+font-family: 'Roboto Mono',monospace; 
+}
+#auto{
+height: 60px;
+}
+.navbar-brand {
+font-family: 'Baloo Bhaijaan', cursive;
+font-size: 36px;
+letter-spacing: 2px;
+/* color: darkturquoise; */
+}
+
+#content{
+	text-align: center;
+	padding-top:10%;
+	
+}
+
+h1{
+	font-size: 4em;
+	font-weight: 700;
+}
+
+
+
+h3{
+	width: 300px;
+	margin: 20px auto 50px auto;
+	text-align: center;
+	font-size: 3em;
+	color: darkturquoise;
+	margin-bottom: 24px;
+	font-weight: bolder;
+	font-family: 'Gloria Hallelujah';
+}
+
+hr{
+	width: 300px;
+	border-top: 1px solid bisque;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+input{
+
+	border: none;
+	width: 350px ;
+	outline: none;
+	font-size: 16px;
+	height: 28px;
+	margin-bottom: 10%;
+	background: none;
+	border-bottom :  1px solid #B4B2B2;
+	padding: 6px;
+
+}
+
+
+form{
+	margin: 0 auto;
+	width: 40%;
+	padding: 10px;
+	height: auto ;
+	background: rgba(100,123,123,.05);
+	border: none;
+	color: navajowhite;
+
+}
+
+#register-form{
+	display: none;
+}
+
+.btn{
+	margin: 15px 0;
+	background: powderblue;
+	font-weight: bolder;
+	color: black;
+	
+	
+}
+
+.btn:hover{
+	background: #CCAA11;
+}
+
+p{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+
+a , a:hover , a:active , a:visited{
+	text-decoration: none;
+	font-size: 24px;
+
+}
+
+.navbar-inverse{
+
+	border: none;	
+	/* background: #3C4A6F; */
+	
+}
+

@@ -1,0 +1,36 @@
+body{
+	background: #232323;
+	margin: 0;
+	padding: 0;
+}
+
+
+#container{
+	margin: 0 auto;
+	max-width: 600px;
+	
+}
+
+.square{
+	width: 30%;
+	margin: 1.6%;
+	float: left;
+	background-color: purple;
+	height: 150px;
+	border-radius: 15%;
+
+}
+
+#heading{
+	text-align: center;
+}
+
+button{
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+#buttons{
+	margin-left: 50%;
+
+}
